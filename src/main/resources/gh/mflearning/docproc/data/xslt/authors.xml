@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<record xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <leader>     cam a22     4  4500</leader>
+    <controlfield tag="001">029538386</controlfield>
+    <controlfield tag="003">CHVBK</controlfield>
+    <controlfield tag="005">20140813165746.0</controlfield>
+    <controlfield tag="008">070102s2007    gw            00    ger|d</controlfield>
+    <datafield tag="015" ind1=" " ind2=" ">
+        <subfield code="a">GFR-CIP-07,N05,0840</subfield>
+    </datafield>
+    <datafield tag="015" ind1=" " ind2=" ">
+        <subfield code="a">DNB-08,A12,0969</subfield>
+        <subfield code="2">dnb</subfield>
+    </datafield>
+    <datafield tag="016" ind1="7" ind2=" ">
+        <subfield code="a">982503555</subfield>
+        <subfield code="2">GyFmDB</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+        <subfield code="a">978-3-7787-9175-2</subfield>
+        <subfield code="c">Gewebe : EUR 20.00 (DE), EUR 20.60 (AT), sfr 35.10</subfield>
+    </datafield>
+    <datafield tag="020" ind1=" " ind2=" ">
+        <subfield code="a">3-7787-9175-3</subfield>
+        <subfield code="c">Gewebe : EUR 20.00 (DE), EUR 20.60 (AT), sfr 35.10</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(OCoLC)213392700</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(IDSLU)000557429</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">DDB</subfield>
+        <subfield code="d">SzZuIDS LU LUZHB</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+        <subfield code="a">gw</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="4">
+        <subfield code="a">Das grosse Buch der ganzheitlichen Therapien</subfield>
+        <subfield code="c">Ruediger Dahlke (Hg.) ; unter Mitarb. von Juliane Molitor</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="a">München</subfield>
+        <subfield code="b">Integral</subfield>
+        <subfield code="c">2007</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+        <subfield code="a">559 S</subfield>
+        <subfield code="b">Ill</subfield>
+        <subfield code="c">25 cm</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2="7">
+        <subfield code="a">Ganzheitsmedizin</subfield>
+        <subfield code="0">(DE-588)4019244-1</subfield>
+        <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="655" ind1=" " ind2="7">
+        <subfield code="a">Ratgeber</subfield>
+        <subfield code="2">gnd</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+        <subfield code="a">Dahlke</subfield>
+        <subfield code="D">Rüdiger</subfield>
+    </datafield>
+    <datafield tag="909" ind1=" " ind2="7">
+        <subfield code="a">max2b NL200805</subfield>
+        <subfield code="2">idslu L1</subfield>
+    </datafield>
+    <datafield tag="912" ind1=" " ind2="7">
+        <subfield code="a">334</subfield>
+        <subfield code="2">IDS LU</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">IDSLU</subfield>
+        <subfield code="P">700</subfield>
+        <subfield code="E">1-</subfield>
+        <subfield code="a">Dahlke</subfield>
+        <subfield code="D">Rüdiger</subfield>
+    </datafield>
+    <datafield tag="898" ind1=" " ind2=" ">
+        <subfield code="a">BK020000</subfield>
+        <subfield code="b">XK020000</subfield>
+    </datafield>
+    <datafield tag="949" ind1=" " ind2=" ">
+        <subfield code="B">IDSLU</subfield>
+        <subfield code="F">LUZHB</subfield>
+        <subfield code="j">E.b 15814</subfield>
+    </datafield>
+</record>

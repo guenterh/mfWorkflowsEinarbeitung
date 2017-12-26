@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+    <entity name="author[]" reset="true" flushWith="record"  >
+
+        <!-- lookup 100|700|800  -->
+
+        <concat name="" delimiter=", "  reset="true" flushWith="100??">
+            <data source="100??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <data source="100??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="700??">
+            <data source="700??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="700??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="800??">
+            <data source="800??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="800??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+        <!-- lookup 100|700|800 on 880 and 950 -->
+
+        <combine name="" value="${v880a}" reset="true">
+            <if>
+                <data source="880??.6">
+                    <regexp match="100|700|800"/>
+                </data>
+            </if>
+            <concat name="v880a" delimiter=", " flushWith="880??">
+                <data source="880??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="880??.D">
+                    <occurrence only="1"/>
+                </data>
+            </concat>
+        </combine>
+
+        <combine name="" value="${v950a}" reset="true">
+            <if>
+                <data source="950??.P">
+                    <regexp match="100|700"/>
+                </data>
+            </if>
+            <concat name="v950a" delimiter=", " flushWith="950??" >
+                <data source="950??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="950??.D">
+                    <occurrence only="1"/>
+                </data>
+            </concat>
+        </combine>
+
+
+
+        <!-- lookup 110|710|810-->
+
+        <concat name="" delimiter=", "  reset="true" flushWith="110??">
+            <data source="110??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <data source="110??.b"/>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="710??">
+            <data source="710??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="710??.b"/>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="810??">
+            <data source="810??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="810??.b"/>
+        </concat>
+
+
+        <!-- lookup 110|710|810 on 880 and 950 -->
+
+        <combine name="" value="${v880a}" reset="true">
+            <if>
+                <data source="880??.6">
+                    <regexp match="110|710|810"/>
+                </data>
+            </if>
+            <concat name="v880a" delimiter=", " flushWith="880??">
+                <data source="880??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="880??.b"/>
+            </concat>
+        </combine>
+
+        <combine name="" value="${v950a}" reset="true">
+            <if>
+                <data source="950??.P">
+                    <regexp match="110|710|810"/>
+                </data>
+            </if>
+            <concat name="v950a" delimiter=", " flushWith="950??" >
+                <data source="950??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="950??.b"/>
+            </concat>
+        </combine>
+
+
+        <!-- lookup 111|711|811 -->
+
+        <concat name="" delimiter=", "  reset="true" flushWith="111??">
+            <data source="111??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <data source="111??.e"/>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="711??">
+            <data source="711??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="711??.e"/>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="811??">
+            <data source="811??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="811??.e"/>
+        </concat>
+
+        <!-- lookup 111|711|811 on 880 and 950 -->
+
+
+        <combine name="" value="${v880a}" reset="true">
+            <if>
+                <data source="880??.6">
+                    <regexp match="111|711|811"/>
+                </data>
+            </if>
+            <concat name="v880a" delimiter=", " flushWith="880??">
+                <data source="880??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="880??.e"/>
+            </concat>
+        </combine>
+
+        <combine name="" value="${v950a}" reset="true">
+            <if>
+                <data source="950??.P">
+                    <regexp match="111|711|811"/>
+                </data>
+            </if>
+            <concat name="v950a" delimiter=", " flushWith="950??" >
+                <data source="950??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="950??.e"/>
+            </concat>
+        </combine>
+
+
+    </entity>
+
+
+
+</rules>

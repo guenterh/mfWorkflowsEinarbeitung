@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+
+    <entity name="author_additional_tag950[]" reset="true" flushWith="record" >
+
+
+        <combine name="" value="${v950AllSubfields}"  sameEntity="true" reset="false"  >
+            <if>
+                <data source="950??.P">
+                    <regexp match="100|700|800"/>
+                </data>
+            </if>
+
+            <data  name="v950AllSubfields" source="950??.b|950??.c|950??.d||950??.e|950??.f|950??.g|950??.h|950??.i|950??.j|950??.k|950??.l|950??.m|950??.n|950??.o|950??.p|950??.q|950??.r|950??.s|950??.u|950??.v|950??.w|950??.x|950??.y|950??.z" />
+
+        </combine>
+
+        <combine name="" value="${v950AllSubfields}"  sameEntity="true" reset="false"  >
+            <if>
+                <data source="950??.P">
+                    <regexp match="110|710|810"/>
+                </data>
+            </if>
+
+            <data  name="v950AllSubfields" source="950??.c|950??.d|950??.e|950??.f|950??.g|950??.h|950??.i|950??.j|950??.k|950??.l|950??.m|950??.n|950??.o|950??.p|950??.q|950??.r|950??.s|950??.u|950??.v|950??.w|950??.x|950??.y|950??.z|950??.8" />
+
+        </combine>
+
+        <combine name="" value="${v950AllSubfields}"  sameEntity="true" reset="false"  >
+            <if>
+                <data source="950??.P">
+                    <regexp match="111|711|811"/>
+                </data>
+            </if>
+
+            <data  name="v950AllSubfields" source="950??.b|950??.c|950??.d|950??.f|950??.g|950??.h|950??.i|950??.j|950??.k|950??.l|950??.m|950??.n|950??.o|950??.p|950??.q|950??.r|950??.s|950??.u|950??.v|950??.w|950??.x|950??.y|950??.z|950??.8" />
+
+        </combine>
+
+
+    </entity>
+
+
+</rules>

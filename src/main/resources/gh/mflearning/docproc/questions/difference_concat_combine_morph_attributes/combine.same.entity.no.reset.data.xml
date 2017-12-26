@@ -1,0 +1,29 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+    <record type="Bibliographic">
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">711</subfield>
+        <subfield code="E">4-</subfield>
+        <subfield code="c">711 in P match in c</subfield>
+        <subfield code="e">711 in P kein match in e</subfield>
+        <subfield code="j">711 in P match in j</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">811</subfield>
+        <subfield code="E">4-</subfield>
+        <subfield code="c">811 in P match in c</subfield>
+        <subfield code="e">811 in P kein match in e</subfield>
+        <subfield code="j">811 in P match in j</subfield>
+    </datafield>
+
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">900</subfield>
+        <subfield code="E">4-</subfield>
+        <subfield code="c">sub field P doesn't match</subfield>
+        <subfield code="e">811 in P kein match in e</subfield>
+        <subfield code="j">sub field P doesn't match</subfield>
+    </datafield>
+    </record>
+</collection>

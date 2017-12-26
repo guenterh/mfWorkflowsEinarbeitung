@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+
+
+
+	<entity name="classif_ddc[]" flushWith="record">
+		<data source="082??.a"/>
+
+		<combine name="" value="${909c}" flushWith="909??" reset="true">
+			<if>
+				<data source="909?7.2">
+					<case to="lower"/>
+					<regexp  match="sb_2001" />
+				</data>
+			</if>
+			<data source="909?7.c" name="909c"/>
+		</combine>
+
+
+		<combine name="" value="${909d}" flushWith="909??" reset="true">
+			<if>
+				<data source="909?7.2">
+					<case to="lower"/>
+					<regexp  match="ehelv" />
+				</data>
+			</if>
+			<data source="909?7.d" name="909d"/>
+		</combine>
+
+
+
+	</entity>
+
+
+</rules>

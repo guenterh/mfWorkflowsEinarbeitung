@@ -1,0 +1,25 @@
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+    <record type="Bibliographic">
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">111</subfield>
+        <subfield code="E">1-</subfield>
+        <subfield code="a">value subfield a [forme avant 2007] - remove something before</subfield>
+        <subfield code="W">gross w sollte nicht geommen werden</subfield>
+        <subfield code="w">klein w ist ok</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="e">subfield e should be taken</subfield>
+        <subfield code="e">even more than one value</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">111</subfield>
+        <subfield code="E">1-</subfield>
+        <subfield code="a">take value from sub a as single token, not concatenated with former 950</subfield>
+        <subfield code="W">gross w sollte nicht geommen werden</subfield>
+        <subfield code="w">klein w ist ok</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="e">but again concatenated with subfield e</subfield>
+    </datafield>
+</record>
+</collection>

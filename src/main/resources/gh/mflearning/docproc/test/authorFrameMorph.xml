@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metamorph xmlns="http://www.culturegraph.org/metamorph" version="1">
+
+
+
+
+
+	<!--<include xmlns="http://www.w3.org/2001/XInclude" href="testMorphs/author/author.100.700.800.xml" parse="xml"/> -->
+	<!--<include xmlns="http://www.w3.org/2001/XInclude" href="testMorphs/author/author.880.950.xml" parse="xml"/> -->
+	<!--<include xmlns="http://www.w3.org/2001/XInclude" href="testMorphs/author/author.880.950.looksup.x10.xml" parse="xml"/>-->
+	<!--<include xmlns="http://www.w3.org/2001/XInclude" href="testMorphs/author/author_additional.xml" parse="xml"/> -->
+	<include xmlns="http://www.w3.org/2001/XInclude" href="testMorphs/author/author_additional.tag950.xml" parse="xml"/>
+
+
+
+</metamorph>

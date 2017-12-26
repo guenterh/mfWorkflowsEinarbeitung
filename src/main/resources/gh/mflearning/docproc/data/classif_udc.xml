@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+<record type="Bibliographic" >
+    <leader>     cas a22     1  4500</leader>
+    <controlfield tag="001">059441046</controlfield>
+    <controlfield tag="003">CHVBK</controlfield>
+    <controlfield tag="005">20140210215539.0</controlfield>
+    <controlfield tag="007">ta</controlfield>
+    <controlfield tag="008">940831d19461953sz ar         0   b0fre d</controlfield>
+    <datafield tag="022" ind1="0" ind2=" ">
+        <subfield code="a">1424-0343</subfield>
+        <subfield code="2">40</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(SNL)vtls000411976</subfield>
+    </datafield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(Sz)000411976</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">Sz</subfield>
+        <subfield code="c">SAZ</subfield>
+        <subfield code="d">Sz</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+        <subfield code="a">621.396</subfield>
+        <subfield code="x">erstes subfield x</subfield>
+        <subfield code="x">zweites subfield x</subfield>
+        <subfield code="x">drittes subfield x</subfield>
+        <subfield code="x">viertes subfield wird nicht genommen</subfield>
+
+    </datafield>
+    <datafield tag="210" ind1="0" ind2=" ">
+        <subfield code="a">Annu. - Pro Radio</subfield>
+    </datafield>
+    <datafield tag="222" ind1=" " ind2="0">
+        <subfield code="a">Annuaire - Pro Radio</subfield>
+    </datafield>
+    <datafield tag="245" ind1="0" ind2="0">
+        <subfield code="a">Annuaire</subfield>
+        <subfield code="c">Pro Radio</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="a">Bienne</subfield>
+        <subfield code="b">Pro Radio</subfield>
+        <subfield code="c">1946-1953</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+        <subfield code="a">   v.</subfield>
+        <subfield code="b">Ill</subfield>
+        <subfield code="c">8°</subfield>
+    </datafield>
+    <datafield tag="310" ind1=" " ind2=" ">
+        <subfield code="a">Annuel</subfield>
+    </datafield>
+    <datafield tag="362" ind1="0" ind2=" ">
+        <subfield code="a">1946-1953.</subfield>
+    </datafield>
+    <datafield tag="690" ind1=" " ind2="7">
+        <subfield code="a">   v.</subfield>
+        <subfield code="b">Ill</subfield>
+        <subfield code="c">8°</subfield>
+        <subfield code="2">snl local</subfield>
+        <subfield code="u">udc aus 690 u</subfield>
+    </datafield>
+    <datafield tag="710" ind1="2" ind2=" ">
+        <subfield code="a">Pro Radio</subfield>
+    </datafield>
+    <datafield tag="775" ind1="0" ind2=" ">
+        <subfield code="t">Jahrbuch / Pro Radio</subfield>
+        <subfield code="x">0478-328X</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">SNL</subfield>
+        <subfield code="P">710</subfield>
+        <subfield code="E">2-</subfield>
+        <subfield code="a">Pro Radio</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">SNL</subfield>
+        <subfield code="P">775</subfield>
+        <subfield code="E">0-</subfield>
+        <subfield code="t">Jahrbuch / Pro Radio</subfield>
+        <subfield code="x">0478-328X</subfield>
+    </datafield>
+    <datafield tag="090" ind1=" " ind2=" ">
+        <subfield code="a">P 20379a</subfield>
+    </datafield>
+    <datafield tag="898" ind1=" " ind2=" ">
+        <subfield code="a">CR030000</subfield>
+        <subfield code="b">XR030000</subfield>
+    </datafield>
+    <datafield tag="852" ind1="4" ind2=" ">
+        <subfield code="B">SNL</subfield>
+        <subfield code="F">NB001</subfield>
+        <subfield code="j">P 20379a</subfield>
+        <subfield code="a">-</subfield>
+    </datafield>
+    <datafield tag="909" ind1=" " ind2="7">
+        <subfield code="2">sb_xxxx</subfield>
+        <subfield code="c">datafield 909 code c for udc</subfield>
+    </datafield>
+</record>
+</collection>

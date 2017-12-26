@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+
+    <entity name="author[]" reset="true" flushWith="record"  >
+
+        <!-- lookup 100|700|800 as well as 880 and 950 -->
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="110??">
+            <data source="110??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <!-- fetch all the subfields b -->
+            <data source="110??.b"/>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="710??">
+            <data source="710??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <!-- fetch all the subfields b -->
+            <data source="710??.b"/>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="810??">
+            <data source="810??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <!-- fetch all the subfields b -->
+            <data source="810??.b"/>
+        </concat>
+
+
+        <!-- combine or concat ??-->
+        <combine name="" value="${v880a}" flushWith="880??">
+            <if>
+                <data source="880??.6">
+                    <regexp match="110|710|810"/>
+                </data>
+            </if>
+            <data source="880??.a" name="v880a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <!-- not tested so far-->
+            <!-- fetch all the subfields b -->
+            <data source="880??.b"/>
+        </combine>
+
+
+
+
+
+
+        <concat delimiter=", " name=""  sameEntity="true" reset="true" flushWith="950??">
+
+            <!-- doch geht wohl!! -->
+            <if>
+                <data source="950??.P">
+                    <regexp match="halloo"/>
+                </data>
+            </if>
+            <data source="950??.a" name="v950a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="950??.b" />
+        </concat>
+
+
+
+
+        <combine  value="${v950}" name=""   reset="true" flushWith="950??">
+
+            <!-- mit combine funktioniert die Abfrage -->
+            <if>
+                <data source="950??.P">
+                    <regexp match="hallo"/>
+                </data>
+            </if>
+            <concat name="v950" delimiter=", " sameEntity="true" reset="true" flushWith="950??">
+                <data source="950??.a" name="v950a">
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <data source="950??.b" />
+            </concat>
+        </combine>
+
+
+
+    </entity>
+
+
+
+
+
+</rules>

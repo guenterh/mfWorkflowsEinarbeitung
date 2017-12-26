@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+    <record type="Bibliographic">
+    <leader> cam a22 7 4500</leader>
+    <controlfield tag="001">201391775</controlfield>
+    <controlfield tag="003">CHVBK</controlfield>
+    <controlfield tag="005">20130812154427.0</controlfield>
+    <controlfield tag="008">960909s1883 ne 00 fre d</controlfield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(RERO)0187605</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">CH-MyRERO</subfield>
+        <subfield code="d">CHVBK</subfield>
+    </datafield>
+    <datafield tag="041" ind1="1" ind2=" ">
+        <subfield code="a">fre</subfield>
+        <subfield code="h">dut</subfield>
+    </datafield>
+    <datafield tag="072" ind1=" " ind2="7">
+        <subfield code="a">s1dr</subfield>
+        <subfield code="2">rero</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="d">1838-1913</subfield>
+        <subfield code="d">why isn't it taken??</subfield>
+    </datafield>
+    <datafield tag="700" ind1="1" ind2=" ">
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="d">d in 700</subfield>
+        <subfield code="d">doubled d</subfield>
+    </datafield>
+    <datafield tag="800" ind1="1" ind2=" ">
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="x">x in 800</subfield>
+        <subfield code="x">nochmal x in 800</subfield>
+        <subfield code="y">y in 800</subfield>
+        <subfield code="8">und noch Feld 8</subfield>
+        <subfield code="9">Feld 9 wird nicht genommen</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+        <subfield code="a">Discours prononcés par M.T.M.C. Asser</subfield>
+        <subfield code="b">dans les séances d&#39;ouverture des congrès d&#39;Amsterdam, tenus à
+            l&#39;occasion de l&#39;exposition coloniale internationale en septembre 1883</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="a">Amsterdam</subfield>
+        <subfield code="c">1883</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+        <subfield code="a">1 vol</subfield>
+        <subfield code="c">8°</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">100</subfield>
+        <subfield code="E">1-</subfield>
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="c">950 c</subfield>
+        <subfield code="d">950 d</subfield>
+        <subfield code="e">950 e</subfield>
+    </datafield>
+    <datafield tag="898" ind1=" " ind2=" ">
+        <subfield code="a">BK020000</subfield>
+        <subfield code="b">XK020000</subfield>
+    </datafield>
+    <datafield tag="949" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="E">0187605</subfield>
+        <subfield code="F">RE81001</subfield>
+        <subfield code="b">RE81001</subfield>
+        <subfield code="c">RE810010047</subfield>
+        <subfield code="j">1T 3514 E</subfield>
+        <subfield code="p">1094792553</subfield>
+    </datafield>
+</record>
+</collection>    

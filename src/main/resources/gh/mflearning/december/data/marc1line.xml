@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+
+    <!-- 912 subjects -->
+    <record  type="Bibliographic">
+        <leader>     cas a22     1  4500</leader>
+        <controlfield tag="001">056314213</controlfield>
+        <controlfield tag="003">CHVBK</controlfield>
+        <controlfield tag="005">20140611230039.0</controlfield>
+        <controlfield tag="007">ta</controlfield>
+        <controlfield tag="008">950511d19851985sz  x p       0   b0eng d</controlfield>
+        <datafield tag="019" ind1="0" ind2=" ">
+            <subfield code="a">Der Bestand wurde mit dem Titel "Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten" mitgebunden. Deshalb im Holding kein Item gemacht</subfield>
+            <subfield code="5">27.05.2014/scc</subfield>
+        </datafield>
+        <datafield tag="022" ind1="0" ind2=" ">
+            <subfield code="a">1420-2107</subfield>
+            <subfield code="2">40</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(SNL)vtls000045081</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Sz)000045081</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">Sz</subfield>
+            <subfield code="c">Sz</subfield>
+        </datafield>
+        <datafield tag="041" ind1="0" ind2=" ">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">fre</subfield>
+        </datafield>
+        <datafield tag="044" ind1=" " ind2=" ">
+            <subfield code="a">sz</subfield>
+            <subfield code="a">gw</subfield>
+            <subfield code="a">au</subfield>
+            <subfield code="a">jd</subfield>
+        </datafield>
+        <datafield tag="080" ind1=" " ind2=" ">
+            <subfield code="a">610</subfield>
+        </datafield>
+        <datafield tag="210" ind1="0" ind2=" ">
+            <subfield code="a">Z. Unf.chir. Versicher.med. Berufskrankh., Suppl.</subfield>
+        </datafield>
+        <datafield tag="222" ind1=" " ind2="0">
+            <subfield code="a">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten. Supplementum</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="p">Supplementum</subfield>
+            <subfield code="b">Revue de traumatologie, d'assicurologie et des maladies professionnelles</subfield>
+            <subfield code="p">Supplementum</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Bern</subfield>
+            <subfield code="a">Stuttgart</subfield>
+            <subfield code="a">Wien</subfield>
+            <subfield code="b">H. Huber</subfield>
+            <subfield code="c">1985</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">Bd</subfield>
+            <subfield code="b">Ill</subfield>
+            <subfield code="c">23 cm</subfield>
+        </datafield>
+        <datafield tag="362" ind1="0" ind2=" ">
+            <subfield code="a">1 (1985)</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Versicherungsmedizin</subfield>
+            <subfield code="x">Periodika</subfield>
+            <subfield code="u">368.060(05)</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Verletzungen</subfield>
+            <subfield code="x">Pathologie</subfield>
+            <subfield code="u">616.001</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Arbeitsmedizin</subfield>
+            <subfield code="x">Periodika</subfield>
+            <subfield code="u">613.60(05)</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="772" ind1="0" ind2=" ">
+            <subfield code="t">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="x">0254-6310</subfield>
+            <subfield code="w">(SNL)vtls000044356</subfield>
+            <subfield code="9">26922596X</subfield>
+        </datafield>
+        <datafield tag="785" ind1="0" ind2="0">
+            <subfield code="t">Supplement zur Zeitschrift für Unfallchirurgie und Versicherungsmedizin</subfield>
+            <subfield code="x">1420-2174</subfield>
+            <subfield code="w">(SNL)vtls000008973</subfield>
+            <subfield code="9">056011490</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">772</subfield>
+            <subfield code="E">0-</subfield>
+            <subfield code="t">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="x">0254-6310</subfield>
+            <subfield code="w">(SNL)vtls000044356</subfield>
+            <subfield code="9">26922596X</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2=" ">
+            <subfield code="a">aus 912 a Nr. 1</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2=" ">
+            <subfield code="a">aus 912 a Nr. 2</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">785</subfield>
+            <subfield code="E">00</subfield>
+            <subfield code="t">Supplement zur Zeitschrift für Unfallchirurgie und Versicherungsmedizin</subfield>
+            <subfield code="x">1420-2174</subfield>
+            <subfield code="w">(SNL)vtls000008973</subfield>
+            <subfield code="9">056011490</subfield>
+        </datafield>
+        <datafield tag="898" ind1=" " ind2=" ">
+            <subfield code="a">CR030600</subfield>
+            <subfield code="b">XR030000</subfield>
+        </datafield>
+        <datafield tag="852" ind1="4" ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="F">NB001</subfield>
+            <subfield code="a">-</subfield>
+        </datafield>
+    </record>
+
+
+
+</collection>

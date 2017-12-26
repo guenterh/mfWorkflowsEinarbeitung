@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+    <entity name="author[]" reset="true" flushWith="record"  >
+
+        <!-- lookup 111|711|811 -->
+
+        <concat name="" delimiter=", "  reset="true" flushWith="111??">
+            <data source="111??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <data source="111??.e"/>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="711??">
+            <data source="711??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="711??.e"/>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="811??">
+            <data source="811??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="811??.e"/>
+        </concat>
+
+
+    </entity>
+
+
+
+</rules>

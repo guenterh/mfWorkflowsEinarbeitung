@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+    <entity name="author[]" reset="true" flushWith="record"  >
+
+        <!-- lookup 100|700|800 as well as 880 and 950 -->
+
+        <concat name="" delimiter=", "  reset="true" flushWith="100??">
+            <data source="100??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+            </data>
+            <data source="100??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+
+        <concat name="" delimiter=", "  reset="true" flushWith="700??">
+            <data source="700??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="700??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+        <concat name="" delimiter=", "  reset="true" flushWith="800??">
+            <data source="800??.a">
+                <case to="lower"/>
+                <replace pattern="\[forme avant 2007\]" with=""/>
+
+            </data>
+            <data source="800??.D">
+                <occurrence only="1"/>
+            </data>
+        </concat>
+
+
+    </entity>
+
+
+
+</rules>

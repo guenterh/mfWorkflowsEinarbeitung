@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+    <entity name="author880950[]" reset="true" flushWith="record"  >
+
+
+
+        <combine name="" value="${v880a}" reset="true">
+            <if>
+                <data source="880??.6">
+                    <regexp match="100|700|800"/>
+                </data>
+            </if>
+            <concat name="v880a" delimiter=", " flushWith="880??">
+                <data source="880??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="880??.D">
+                    <occurrence only="1"/>
+                </data>
+            </concat>
+        </combine>
+
+        <combine name="" value="${v950a}" reset="true">
+            <if>
+                <data source="950??.P">
+                    <regexp match="100|700"/>
+                </data>
+            </if>
+            <concat name="v950a" delimiter=", " flushWith="950??" >
+                <data source="950??.a" >
+                    <case to="lower"/>
+                    <replace pattern="\[forme avant 2007\]" with=""/>
+                </data>
+                <!-- not tested so far-->
+                <data source="950??.D">
+                    <occurrence only="1"/>
+                </data>
+            </concat>
+        </combine>
+
+    </entity>
+
+
+
+</rules>

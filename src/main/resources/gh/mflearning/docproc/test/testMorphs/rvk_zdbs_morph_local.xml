@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+	<!-- classif_rvk is related to 1924367 documents -->
+	<entity name="classif_rvk[]" flushWith="084??" reset="true">
+		<if>
+			<data source="084??.2">
+				<case to="lower"/>
+				<equals string="rvk"/>
+			</data>
+		</if>
+		<data source="084??.a" />
+	</entity>
+
+	<!-- classif_zdbs is related to 2813 documents -->
+	<entity name="classif_zdbs[]" flushWith="084??" reset="true">
+		<if>
+			<data source="084??.2">
+				<case to="lower"/>
+				<equals string="zdbs"/>
+			</data>
+		</if>
+		<data source="084??.a" />
+
+	</entity>
+
+	<!-- classif_zdbs is related to 2813 documents -->
+	<entity name="classif_local[]" flushWith="record" reset="true">
+		<data source="691??.u" >
+			<unique part="value"/>
+		</data>
+	</entity>
+
+
+	<!-- Frage: Warum kann ich nicht nach Werten, die in 084a enthalten sind, über subject suchen? -->
+
+</rules>

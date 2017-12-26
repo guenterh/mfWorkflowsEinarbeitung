@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+
+    <!-- 912 subjects -->
+    <record  type="Bibliographic">
+        <leader>     cas a22     1  4500</leader>
+        <controlfield tag="001">056314213</controlfield>
+        <controlfield tag="003">CHVBK</controlfield>
+        <controlfield tag="005">20140611230039.0</controlfield>
+        <controlfield tag="007">ta</controlfield>
+        <controlfield tag="008">950511d19851985sz  x p       0   b0eng d</controlfield>
+        <datafield tag="019" ind1="0" ind2=" ">
+            <subfield code="a">Der Bestand wurde mit dem Titel "Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten" mitgebunden. Deshalb im Holding kein Item gemacht</subfield>
+            <subfield code="5">27.05.2014/scc</subfield>
+        </datafield>
+        <datafield tag="022" ind1="0" ind2=" ">
+            <subfield code="a">1420-2107</subfield>
+            <subfield code="2">40</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(SNL)vtls000045081</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Sz)000045081</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">Sz</subfield>
+            <subfield code="c">Sz</subfield>
+        </datafield>
+        <datafield tag="041" ind1="0" ind2=" ">
+            <subfield code="a">ger</subfield>
+            <subfield code="a">fre</subfield>
+        </datafield>
+        <datafield tag="044" ind1=" " ind2=" ">
+            <subfield code="a">sz</subfield>
+            <subfield code="a">gw</subfield>
+            <subfield code="a">au</subfield>
+            <subfield code="a">jd</subfield>
+        </datafield>
+        <datafield tag="080" ind1=" " ind2=" ">
+            <subfield code="a">610</subfield>
+        </datafield>
+        <datafield tag="210" ind1="0" ind2=" ">
+            <subfield code="a">Z. Unf.chir. Versicher.med. Berufskrankh., Suppl.</subfield>
+        </datafield>
+        <datafield tag="222" ind1=" " ind2="0">
+            <subfield code="a">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten. Supplementum</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="p">Supplementum</subfield>
+            <subfield code="b">Revue de traumatologie, d'assicurologie et des maladies professionnelles</subfield>
+            <subfield code="p">Supplementum</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Bern</subfield>
+            <subfield code="a">Stuttgart</subfield>
+            <subfield code="a">Wien</subfield>
+            <subfield code="b">H. Huber</subfield>
+            <subfield code="c">1985</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">Bd</subfield>
+            <subfield code="b">Ill</subfield>
+            <subfield code="c">23 cm</subfield>
+        </datafield>
+        <datafield tag="362" ind1="0" ind2=" ">
+            <subfield code="a">1 (1985)</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Versicherungsmedizin</subfield>
+            <subfield code="x">Periodika</subfield>
+            <subfield code="u">368.060(05)</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Verletzungen</subfield>
+            <subfield code="x">Pathologie</subfield>
+            <subfield code="u">616.001</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="a">Arbeitsmedizin</subfield>
+            <subfield code="x">Periodika</subfield>
+            <subfield code="u">613.60(05)</subfield>
+            <subfield code="2">snl local</subfield>
+        </datafield>
+        <datafield tag="772" ind1="0" ind2=" ">
+            <subfield code="t">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="x">0254-6310</subfield>
+            <subfield code="w">(SNL)vtls000044356</subfield>
+            <subfield code="9">26922596X</subfield>
+        </datafield>
+        <datafield tag="785" ind1="0" ind2="0">
+            <subfield code="t">Supplement zur Zeitschrift für Unfallchirurgie und Versicherungsmedizin</subfield>
+            <subfield code="x">1420-2174</subfield>
+            <subfield code="w">(SNL)vtls000008973</subfield>
+            <subfield code="9">056011490</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">772</subfield>
+            <subfield code="E">0-</subfield>
+            <subfield code="t">Zeitschrift für Unfallchirurgie, Versicherungsmedizin und Berufskrankheiten</subfield>
+            <subfield code="x">0254-6310</subfield>
+            <subfield code="w">(SNL)vtls000044356</subfield>
+            <subfield code="9">26922596X</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2=" ">
+            <subfield code="a">aus 912 a Nr. 1</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2=" ">
+            <subfield code="a">aus 912 a Nr. 2</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">785</subfield>
+            <subfield code="E">00</subfield>
+            <subfield code="t">Supplement zur Zeitschrift für Unfallchirurgie und Versicherungsmedizin</subfield>
+            <subfield code="x">1420-2174</subfield>
+            <subfield code="w">(SNL)vtls000008973</subfield>
+            <subfield code="9">056011490</subfield>
+        </datafield>
+        <datafield tag="898" ind1=" " ind2=" ">
+            <subfield code="a">CR030600</subfield>
+            <subfield code="b">XR030000</subfield>
+        </datafield>
+        <datafield tag="852" ind1="4" ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="F">NB001</subfield>
+            <subfield code="a">-</subfield>
+        </datafield>
+    </record>
+
+
+    <!-- UDC -->
+    <record type="Bibliographic" >
+        <leader>     cas a22     1  4500</leader>
+        <controlfield tag="001">059441046</controlfield>
+        <controlfield tag="003">CHVBK</controlfield>
+        <controlfield tag="005">20140210215539.0</controlfield>
+        <controlfield tag="007">ta</controlfield>
+        <controlfield tag="008">940831d19461953sz ar         0   b0fre d</controlfield>
+        <datafield tag="022" ind1="0" ind2=" ">
+            <subfield code="a">1424-0343</subfield>
+            <subfield code="2">40</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(SNL)vtls000411976</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(Sz)000411976</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">Sz</subfield>
+            <subfield code="c">SAZ</subfield>
+            <subfield code="d">Sz</subfield>
+        </datafield>
+        <datafield tag="080" ind1=" " ind2=" ">
+            <subfield code="a">621.396</subfield>
+            <subfield code="x">erstes subfield x</subfield>
+            <subfield code="x">zweites subfield x</subfield>
+            <subfield code="x">drittes subfield x</subfield>
+            <subfield code="x">viertes subfield wird nicht genommen</subfield>
+
+        </datafield>
+        <datafield tag="210" ind1="0" ind2=" ">
+            <subfield code="a">Annu. - Pro Radio</subfield>
+        </datafield>
+        <datafield tag="222" ind1=" " ind2="0">
+            <subfield code="a">Annuaire - Pro Radio</subfield>
+        </datafield>
+        <datafield tag="245" ind1="0" ind2="0">
+            <subfield code="a">Annuaire</subfield>
+            <subfield code="c">Pro Radio</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Bienne</subfield>
+            <subfield code="b">Pro Radio</subfield>
+            <subfield code="c">1946-1953</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">   v.</subfield>
+            <subfield code="b">Ill</subfield>
+            <subfield code="c">8°</subfield>
+        </datafield>
+        <datafield tag="310" ind1=" " ind2=" ">
+            <subfield code="a">Annuel</subfield>
+        </datafield>
+        <datafield tag="362" ind1="0" ind2=" ">
+            <subfield code="a">1946-1953.</subfield>
+        </datafield>
+        <datafield tag="690" ind1=" " ind2="7">
+            <subfield code="a">   v.</subfield>
+            <subfield code="b">Ill</subfield>
+            <subfield code="c">8°</subfield>
+            <subfield code="2">snl local</subfield>
+            <subfield code="u">udc aus 690 u</subfield>
+        </datafield>
+        <datafield tag="710" ind1="2" ind2=" ">
+            <subfield code="a">Pro Radio</subfield>
+        </datafield>
+        <datafield tag="775" ind1="0" ind2=" ">
+            <subfield code="t">Jahrbuch / Pro Radio</subfield>
+            <subfield code="x">0478-328X</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">710</subfield>
+            <subfield code="E">2-</subfield>
+            <subfield code="a">Pro Radio</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">RERO</subfield>
+            <subfield code="P">711</subfield>
+            <subfield code="E">4-</subfield>
+            <subfield code="c">711 in P match in c</subfield>
+            <subfield code="e">711 in P kein match in e</subfield>
+            <subfield code="j">711 in P kein match in e jedoch in j</subfield>
+        </datafield>
+
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="P">hier passt der regex aber nicht</subfield>
+            <subfield code="E">0-</subfield>
+            <subfield code="t">Jahrbuch / Pro Radio</subfield>
+            <subfield code="x">findet mich das Glück - warum?</subfield>
+        </datafield>
+        <datafield tag="090" ind1=" " ind2=" ">
+            <subfield code="a">P 20379a</subfield>
+        </datafield>
+        <datafield tag="898" ind1=" " ind2=" ">
+            <subfield code="a">CR030000</subfield>
+            <subfield code="b">XR030000</subfield>
+        </datafield>
+        <datafield tag="852" ind1="4" ind2=" ">
+            <subfield code="B">SNL</subfield>
+            <subfield code="F">NB001</subfield>
+            <subfield code="j">P 20379a</subfield>
+            <subfield code="a">-</subfield>
+        </datafield>
+        <datafield tag="909" ind1=" " ind2="7">
+            <subfield code="2">sb_xxxx</subfield>
+            <subfield code="c">datafield 909 code c for udc</subfield>
+        </datafield>
+    </record>
+
+    <!-- ddc record -->
+    <record type="Bibliographic">
+        <leader>     cam a22     4  4500</leader>
+        <controlfield tag="001">029538718</controlfield>
+        <controlfield tag="003">CHVBK</controlfield>
+        <controlfield tag="005">20140813165956.0</controlfield>
+        <controlfield tag="008">120430s2012    enk           00    eng|d</controlfield>
+        <datafield tag="015" ind1=" " ind2=" ">
+            <subfield code="a">GBB2-45798</subfield>
+            <subfield code="2">bnb</subfield>
+        </datafield>
+        <datafield tag="016" ind1="7" ind2=" ">
+            <subfield code="a">016082824</subfield>
+            <subfield code="2">Uk</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">978-1-84980-003-7 (hbk.) : EUR 155.80</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">978-1-78100-600-9 (ebook)</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)793689923</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(IDSLU)001050142</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)793689923</subfield>
+            <subfield code="z">(OCoLC)778965918</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">UKMGB</subfield>
+            <subfield code="d">YDXCP</subfield>
+            <subfield code="d">SzZuIDS LU LUZHB</subfield>
+        </datafield>
+        <datafield tag="050" ind1=" " ind2=" ">
+            <subfield code="a">K</subfield>
+        </datafield>
+        <datafield tag="082" ind1="0" ind2=" ">
+            <subfield code="a">346.048 (aus 082??.a)</subfield>
+            <subfield code="2">23</subfield>
+        </datafield>
+        <datafield tag="100" ind1="1" ind2=" ">
+            <subfield code="a">Blakeney</subfield>
+            <subfield code="D">Michael</subfield>
+        </datafield>
+        <datafield tag="245" ind1="1" ind2="0">
+            <subfield code="a">Intellectual property enforcement</subfield>
+            <subfield code="b">a commentary on the anti-conterfeiting trade agreement (ACTA)</subfield>
+            <subfield code="c">Michael Blakeney</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Cheltenham</subfield>
+            <subfield code="b">E. Elgar</subfield>
+            <subfield code="c">2012</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">394 S</subfield>
+            <subfield code="c">25 cm</subfield>
+        </datafield>
+        <datafield tag="490" ind1="0" ind2=" ">
+            <subfield code="a">Elgar commentaries</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="0">
+            <subfield code="a">Intellectual property (International law)</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Produktpiraterie</subfield>
+            <subfield code="0">(DE-588)4246534-5</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Markenpiraterie</subfield>
+            <subfield code="0">(DE-588)4229411-3</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Internationales Handelsrecht</subfield>
+            <subfield code="0">(DE-588)4027429-9</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="B">u</subfield>
+            <subfield code="u">PD 30</subfield>
+            <subfield code="2">idslu L1</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="B">u</subfield>
+            <subfield code="u">PC 86.1</subfield>
+            <subfield code="2">idslu L1</subfield>
+        </datafield>
+        <datafield tag="909" ind1=" " ind2="7">
+            <subfield code="a">NL201209</subfield>
+            <subfield code="2">idslu L1</subfield>
+        </datafield>
+
+        <datafield tag="909" ind1=" " ind2="7">
+            <subfield code="a">NL201209</subfield>
+            <subfield code="2">sb_2001</subfield>
+            <subfield code="c">ddc code c code 2 sb_2001</subfield>
+        </datafield>
+        <datafield tag="909" ind1=" " ind2="7">
+            <subfield code="a">NL201209</subfield>
+            <subfield code="2">ehelv</subfield>
+            <subfield code="d">ddc code d code 2 ehelv</subfield>
+        </datafield>
+
+
+        <datafield tag="912" ind1=" " ind2="7">
+            <subfield code="a">811</subfield>
+            <subfield code="2">IDS LU</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2="7">
+            <subfield code="a">842</subfield>
+            <subfield code="2">IDS LU</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="P">100</subfield>
+            <subfield code="E">1-</subfield>
+            <subfield code="a">Blakeney</subfield>
+            <subfield code="D">Michael</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="P">490</subfield>
+            <subfield code="E">--</subfield>
+            <subfield code="a">Elgar commentaries</subfield>
+        </datafield>
+        <datafield tag="986" ind1=" " ind2=" ">
+            <subfield code="a">SWISSBIB</subfield>
+            <subfield code="b">029538718</subfield>
+        </datafield>
+        <datafield tag="898" ind1=" " ind2=" ">
+            <subfield code="a">BK020000</subfield>
+            <subfield code="b">XK020000</subfield>
+        </datafield>
+        <datafield tag="949" ind1=" " ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="F">LUUHL</subfield>
+            <subfield code="j">PD 30 .g BLAK 2012</subfield>
+        </datafield>
+        <datafield tag="956" ind1="4" ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="C">ILU50</subfield>
+            <subfield code="D">ILU01</subfield>
+            <subfield code="a">LUZHB</subfield>
+            <subfield code="u">http://www.ub.unibas.ch/tox/IDSLUZ/001050142/PDF</subfield>
+            <subfield code="q">pdf</subfield>
+            <subfield code="x">VIEW</subfield>
+            <subfield code="y">Inhaltsverzeichnis</subfield>
+        </datafield>
+    </record>
+
+    <!-- rvk zdbs local classification record-->
+    <record type="Bibliographic">
+        <leader>     cam a22     4  4500</leader>
+        <controlfield tag="001">029541476</controlfield>
+        <controlfield tag="003">CHVBK</controlfield>
+        <controlfield tag="005">20140813172857.0</controlfield>
+        <controlfield tag="008">120316s2012    xxk           00    eng|d</controlfield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">978-1-78100-207-0 (hbk.)</subfield>
+        </datafield>
+        <datafield tag="020" ind1=" " ind2=" ">
+            <subfield code="a">978-1-78100-222-3 (pbk.) : GBP 19.95</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)802342984</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(IDSLU)001082675</subfield>
+        </datafield>
+        <datafield tag="035" ind1=" " ind2=" ">
+            <subfield code="a">(OCoLC)802342984</subfield>
+        </datafield>
+        <datafield tag="040" ind1=" " ind2=" ">
+            <subfield code="a">DE-604</subfield>
+            <subfield code="d">SzZuIDS LU LUZHB</subfield>
+        </datafield>
+
+        <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">MG 42920</subfield>
+            <subfield code="a">test RVK doppelt</subfield>
+            <subfield code="2">rvk</subfield>
+        </datafield>
+
+        <datafield tag="084" ind1=" " ind2=" ">
+            <subfield code="a">300</subfield>
+            <subfield code="a">620</subfield>
+            <subfield code="2">zdbs</subfield>
+        </datafield>
+
+        <datafield tag="245" ind1="0" ind2="4">
+            <subfield code="a">The big society debate</subfield>
+            <subfield code="b">a new agenda for social welfare?</subfield>
+            <subfield code="c">ed. by Armine Ishkanian ... [et al.]</subfield>
+        </datafield>
+        <datafield tag="260" ind1=" " ind2=" ">
+            <subfield code="a">Cheltenham</subfield>
+            <subfield code="b">E. Elgar</subfield>
+            <subfield code="c">2012</subfield>
+        </datafield>
+        <datafield tag="300" ind1=" " ind2=" ">
+            <subfield code="a">227 S</subfield>
+            <subfield code="b">Ill</subfield>
+            <subfield code="c">24 cm</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Zwischenmenschliche Beziehung</subfield>
+            <subfield code="0">(DE-588)4079583-4</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Sozialpolitik</subfield>
+            <subfield code="0">(DE-588)4055879-4</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Gesellschaft</subfield>
+            <subfield code="0">(DE-588)4020588-5</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="650" ind1=" " ind2="7">
+            <subfield code="a">Sozialstaat</subfield>
+            <subfield code="0">(DE-588)4055896-4</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="651" ind1=" " ind2="7">
+            <subfield code="a">Großbritannien</subfield>
+            <subfield code="0">(DE-588)4022153-2</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="655" ind1=" " ind2="7">
+            <subfield code="a">Aufsatzsammlung</subfield>
+            <subfield code="2">gnd</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="B">u</subfield>
+            <subfield code="u">MG 42920</subfield>
+            <subfield code="2">idslu LR</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="B">u</subfield>
+            <subfield code="u">QX 000</subfield>
+            <subfield code="2">idslu LR</subfield>
+        </datafield>
+        <datafield tag="691" ind1=" " ind2="7">
+            <subfield code="B">u</subfield>
+            <!-- sollte nicht erscheinen da doppelt-->
+            <subfield code="u">QX 000</subfield>
+            <subfield code="2">idslu LX</subfield>
+        </datafield>
+
+        <datafield tag="700" ind1="1" ind2=" ">
+            <subfield code="a">Ishkanian</subfield>
+            <subfield code="D">Armine</subfield>
+        </datafield>
+        <datafield tag="909" ind1=" " ind2="7">
+            <subfield code="a">NL201309</subfield>
+            <subfield code="2">idslu L1</subfield>
+        </datafield>
+        <datafield tag="912" ind1=" " ind2="7">
+            <subfield code="a">172</subfield>
+            <subfield code="2">IDS LU</subfield>
+        </datafield>
+        <datafield tag="950" ind1=" " ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="P">700</subfield>
+            <subfield code="E">1-</subfield>
+            <subfield code="a">Ishkanian</subfield>
+            <subfield code="D">Armine</subfield>
+        </datafield>
+        <datafield tag="986" ind1=" " ind2=" ">
+            <subfield code="a">SWISSBIB</subfield>
+            <subfield code="b">029541476</subfield>
+        </datafield>
+        <datafield tag="898" ind1=" " ind2=" ">
+            <subfield code="a">BK020000</subfield>
+            <subfield code="b">XK020000</subfield>
+        </datafield>
+        <datafield tag="949" ind1=" " ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="F">LUUHL</subfield>
+            <subfield code="j">QX 000 2012</subfield>
+        </datafield>
+        <datafield tag="956" ind1="4" ind2=" ">
+            <subfield code="B">IDSLU</subfield>
+            <subfield code="C">ILU50</subfield>
+            <subfield code="D">ILU01</subfield>
+            <subfield code="a">LUZHB</subfield>
+            <subfield code="u">http://www.ub.unibas.ch/tox/HBZ/HT017296187/PDF</subfield>
+            <subfield code="q">pdf</subfield>
+            <subfield code="x">VIEW</subfield>
+            <subfield code="y">Inhaltsverzeichnis</subfield>
+        </datafield>
+    </record>
+</collection>

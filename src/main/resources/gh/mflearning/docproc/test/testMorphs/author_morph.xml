@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+    <!-- start recursion for 100|700|800-->
+
+
+    <data source="100??.a" name="@v100">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+    <data source="700??.a" name="@v700">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+    <data source="800??.a" name="@v800">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+
+    <combine  name="@v880match100_700_800" value="${v880a}" reset="true">
+        <if>
+          <data source="880??.6">
+              <regexp match="100|700|800"/>
+          </data>
+        </if>
+        <data source="880??.a" name="v880a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+    <combine  name="@v950match100_700" value="${v950a}" reset="true">
+        <if>
+            <data source="950??.P">
+                <regexp match="100|700"/>
+            </data>
+        </if>
+        <data source="950??.a" name="v950a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+
+    <!-- end recursion for 100|700|800-->
+
+
+
+    <!-- start recursion for 110|710|810-->
+
+    <data source="110??.a" name="@v110">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+    <data source="710??.a" name="@v710">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+    <data source="810??.a" name="@v810">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+
+    <combine  name="@v880match110_710_810" value="${v880a}" reset="true">
+        <if>
+            <data source="880??.6">
+                <regexp match="110|710|810"/>
+            </data>
+        </if>
+        <data source="880??.a" name="v880a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+    <combine  name="@v950match110_710_810" value="${v950a}" reset="true">
+        <if>
+            <data source="950??.P">
+                <regexp match="110|710|810"/>
+            </data>
+        </if>
+        <data source="950??.a" name="v950a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+
+    <!-- end recursion for 110|710|810-->
+
+
+
+
+    <!-- start recursion for 111|711|811-->
+
+    <data source="111??.a" name="@v111">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+    <data source="711??.a" name="@v711">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+    <data source="811??.a" name="@v811">
+        <case to="lower"/>
+        <replace pattern="\[forme avant 2007\]" with=""/>
+    </data>
+
+
+    <combine  name="@v880match111_711_811" value="${v880a}" reset="true">
+        <if>
+            <data source="880??.6">
+                <regexp match="111|711|811"/>
+            </data>
+        </if>
+        <data source="880??.a" name="v880a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+    <combine  name="@v950match111_711_811" value="${v950a}" reset="true">
+        <if>
+            <data source="950??.P">
+                <regexp match="111|711|811"/>
+            </data>
+        </if>
+        <data source="950??.a" name="v950a">
+            <case to="lower"/>
+            <replace pattern="\[forme avant 2007\]" with=""/>
+
+        </data>
+    </combine>
+
+
+    <!-- end recursion for 111|711|811-->
+
+
+
+
+
+    <entity name="author[]" flushWith="record">
+
+
+        <concat name="" delimiter=", " flushWith="100??">
+            <data source="@v100"/>
+            <data source="100??.D"/>
+
+        </concat>
+
+        <concat name="" delimiter=", " flushWith="700??">
+            <data source="@v700"/>
+            <data source="700??.D"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="800??">
+            <data source="@v800"/>
+            <data source="800??.D"/>
+        </concat>
+
+
+
+        <concat name="" delimiter=", " flushWith="880??">
+            <data source="@v880match100_700_800"/>
+            <data source="880??.D"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="950??">
+            <data source="@v950match100_700"/>
+            <data source="950??.D"/>
+        </concat>
+
+
+
+        <concat name="" delimiter=", " flushWith="110??">
+            <data source="@v110"/>
+            <data source="110??.b"/>
+
+        </concat>
+
+        <concat name="" delimiter=", " flushWith="710??">
+            <data source="@v710"/>
+            <data source="710??.b"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="810??">
+            <data source="@v810"/>
+            <data source="810??.b"/>
+        </concat>
+
+
+
+        <concat name="" delimiter=", " flushWith="880??">
+            <data source="@v880match110_710_810"/>
+            <data source="880??.b"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="950??">
+            <data source="@v950match110_710_810"/>
+            <data source="950??.b"/>
+        </concat>
+
+
+
+        <concat name="" delimiter=", " flushWith="111??">
+            <data source="@v111"/>
+            <data source="111??.e"/>
+
+        </concat>
+
+        <concat name="" delimiter=", " flushWith="711??">
+            <data source="@v711"/>
+            <data source="711??.e"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="810??">
+            <data source="@v811"/>
+            <data source="811??.e"/>
+        </concat>
+
+
+
+        <concat name="" delimiter=", " flushWith="880??">
+            <data source="@v880match111_711_811"/>
+            <data source="880??.e"/>
+        </concat>
+
+
+        <concat name="" delimiter=", " flushWith="950??">
+            <data source="@v950match111_711_811"/>
+            <data source="950??.e"/>
+        </concat>
+
+
+
+
+    </entity>
+
+
+</rules>

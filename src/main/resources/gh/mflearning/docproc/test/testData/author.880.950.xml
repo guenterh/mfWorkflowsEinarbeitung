@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" >
+    <record type="Bibliographic">
+    <leader> cam a22 7 4500</leader>
+    <controlfield tag="001">201391759</controlfield>
+    <controlfield tag="003">CHVBK</controlfield>
+    <controlfield tag="005">20131128072112.0</controlfield>
+    <controlfield tag="008">960909s1866 ne 00 dut d</controlfield>
+    <datafield tag="035" ind1=" " ind2=" ">
+        <subfield code="a">(RERO)0187603</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+        <subfield code="a">CH-MyRERO</subfield>
+        <subfield code="d">CHVBK</subfield>
+    </datafield>
+    <datafield tag="072" ind1=" " ind2="7">
+        <subfield code="a">s1dr</subfield>
+        <subfield code="2">rero</subfield>
+    </datafield>
+    <datafield tag="100" ind1="1" ind2=" ">
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="d">1838-1913</subfield>
+    </datafield>
+    <datafield tag="245" ind1="1" ind2="0">
+        <subfield code="a">Voorrede tot ne nieuwe uitgave van het eerste ontwerp van een
+            Nederlandsch wetboek van koophandel</subfield>
+        <subfield code="c">T.M.C. Asser</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+        <subfield code="a">Amsterdam</subfield>
+        <subfield code="c">1866</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+        <subfield code="a">1 vol</subfield>
+        <subfield code="c">8°</subfield>
+    </datafield>
+    <datafield tag="856" ind1="4" ind2=" ">
+        <subfield code="u">http://books.google.ch/books?vid=BCUL1092241355</subfield>
+        <subfield code="z">Extraits?</subfield>
+    </datafield>
+    <datafield tag="880" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">100</subfield>
+        <subfield code="6">100</subfield>
+        <subfield code="a">880a mit subcode 6 100</subfield>
+        <subfield code="D">subfield D</subfield>
+        <subfield code="d">1838-1913</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">700</subfield>
+        <subfield code="6">100</subfield>
+        <subfield code="a">950a mit subcode 6 700</subfield>
+        <subfield code="D">subfield D</subfield>
+        <subfield code="D">subfield D 2. subfield sollte nicht genmmen werden</subfield>
+        <subfield code="d">1838-1913</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">700</subfield>
+        <subfield code="6">800</subfield>
+        <subfield code="a">950a mit subcode 6 800 sollte nicht genommen werden</subfield>
+        <subfield code="D">subfield D</subfield>
+        <subfield code="d">1838-1913</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">100</subfield>
+        <subfield code="E">1-</subfield>
+        <subfield code="a">Asser</subfield>
+        <subfield code="D">Tobias Michael Carel</subfield>
+        <subfield code="d">1838-1913</subfield>
+    </datafield>
+    <datafield tag="950" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="P">856</subfield>
+        <subfield code="E">4-</subfield>
+        <subfield code="u">http://books.google.ch/books?vid=BCUL1092241355</subfield>
+        <subfield code="z">Extraits?</subfield>
+    </datafield>
+    <datafield tag="898" ind1=" " ind2=" ">
+        <subfield code="a">BK020000</subfield>
+        <subfield code="b">XK020000</subfield>
+    </datafield>
+    <datafield tag="949" ind1=" " ind2=" ">
+        <subfield code="B">RERO</subfield>
+        <subfield code="E">0187603</subfield>
+        <subfield code="F">RE81001</subfield>
+        <subfield code="b">RE81001</subfield>
+        <subfield code="c">RE810010047</subfield>
+        <subfield code="j">1T 3514 F</subfield>
+        <subfield code="p">1092241355</subfield>
+        <subfield code="4">7500</subfield>
+    </datafield>
+</record>
+</collection>

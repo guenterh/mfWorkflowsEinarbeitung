@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+
+
+	<entity  name="classif_912[]" flushWith="record">
+		<data source="912*.a" />
+	</entity>
+
+
+
+	<entity name="classif_udc[]" flushWith="record">
+		<concat name="" delimiter="" flushWith="080??" reset="true" >
+			<data source="080??.a" />
+			<data source="080??.x" >
+				<occurrence only="lessThen 4"/>
+			</data>
+		</concat>
+
+		<combine name="" value="${690u}"  flushWith="690??" reset="true">
+			<if>
+				<data source="690?7.2">
+					<case to="lower"/>
+					<regexp match="^snl local"/>
+				</data>
+
+			</if>
+			<data source="690?7.u" name="690u" />
+
+		</combine>
+		<combine name="" value="${909c}" flushWith="909??" reset="true">
+			<if>
+				<data source="909?7.2">
+					<case to="lower"/>
+					<regexp  match="sb_xxxx" />
+				</data>
+			</if>
+			<data source="909?7.c" name="909c"/>
+		</combine>
+
+
+	</entity>
+
+
+	<!-- Fragen UDC Klassifikation
+	swissbib Satz: https://www.swissbib.ch/Record/339168293
+
+	Enthält UDC Klassifikation
+	Aleph: http://opac.nebis.ch/F/?func=full-set-set&set_number=057730&set_entry=000005&format=001 (set nach erweiterter Suche)
+	http://opac.nebis.ch/F/?func=direct&doc_number=010513298 (direkter Einstieg)
+
+	erweiterte Suche in Aleph
+	http://opac.nebis.ch/F/?func=find-d&find_code=WSE&request=494*26*&find_code=WRD&request=&find_code=WRD&request=&x=0&y=0&filter_code_1=WLN&filter_request_1=&filter_code_5=WSL&filter_request_5=&filter_code_2=WYR&filter_request_2=&filter_code_3=WYR&filter_request_3=&filter_code_4=WFT&filter_request_4=&filter_code_6=WKO&filter_request_6=
+	(Sachbegriff Nebis (ohne ZBZ) enthält Stichwörter: 494*26* )
+
+
+	-->
+
+
+	<entity name="classif_ddc[]" flushWith="record">
+		<data source="082??.a"/>
+
+		<combine name="" value="${909c}" flushWith="909??" reset="true">
+			<if>
+				<data source="909?7.2">
+					<case to="lower"/>
+					<regexp  match="sb_2001" />
+				</data>
+			</if>
+			<data source="909?7.c" name="909c"/>
+		</combine>
+
+
+		<combine name="" value="${909d}" flushWith="909??" reset="true">
+			<if>
+				<data source="909?7.2">
+					<case to="lower"/>
+					<regexp  match="ehelv" />
+				</data>
+			</if>
+			<data source="909?7.d" name="909d"/>
+		</combine>
+
+
+
+	</entity>
+
+
+	<entity name="classif_rvk[]" flushWith="084??" reset="true">
+		<if>
+			<data source="084??.2">
+				<case to="lower"/>
+				<equals string="rvk"/>
+			</data>
+		</if>
+		<data source="084??.a" />
+	</entity>
+
+	<entity name="classif_zdbs[]" flushWith="084??" reset="true">
+		<if>
+			<data source="084??.2">
+				<case to="lower"/>
+				<equals string="zdbs"/>
+			</data>
+		</if>
+		<data source="084??.a" />
+
+	</entity>
+
+	<entity name="classif_local[]" flushWith="record" reset="true">
+		<data source="691??.u" >
+			<unique part="value"/>
+		</data>
+	</entity>
+
+
+</rules>

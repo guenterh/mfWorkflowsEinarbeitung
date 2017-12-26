@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rules xmlns="http://www.culturegraph.org/metamorph">
+
+    <entity name="language[]" flushWith="record">
+        <data source="0410 .a|041  .a" >
+
+            <blacklist>
+                <entry name="und"/>
+                <entry name="||"/>
+            </blacklist>
+            <!-- length between 1 and 3 -->
+            <regexp match="(^...$|^..$|^.$)"  />
+
+        </data>
+
+        <data source="008" >
+            <substring start="35" end="38"/>
+            <blacklist>
+                <entry name="und"/>
+                <entry name="||"/>
+            </blacklist>
+            <occurrence only="1"/>
+
+        </data>
+    </entity>
+
+    <entity name="origcountry_isn_mv[]" flushWith="record" >
+        <data source="008" >
+            <substring start="15" end="18"	/>
+        </data>
+        <data source="044*.a" />
+    </entity>
+
+</rules>
